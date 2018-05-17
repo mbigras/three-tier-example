@@ -39,6 +39,10 @@ docker run \
 
 visit localhost:8080
 
+## Diagram
+
+![](diagram.png)
+
 
 
 ## Install sqlite on macos
