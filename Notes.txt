@@ -1,0 +1,12 @@
+Three Tier Example
+
+Overview
+
+Bring up an nginx server in a container
+
+Links
+
+https://docs.docker.com/samples/library/nginx/
+
+
+docker run -d -p 8080:80 --name web -v "$(pwd)"/web:/usr/share/nginx/html:ro nginx
